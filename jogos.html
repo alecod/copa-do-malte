@@ -1,0 +1,905 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Bolão</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" type="text/css" />
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+	/>
+	<link rel="stylesheet" type="text/css" href="https://recursos.clubedomalte.com.br/Handlers/ResourceHandler.ashx?base=c&arquivos=core/core.css,styles.css,responsive-tablet.css,responsive-desktop.css,header.css,spot.css,footer.css,fancybox.css,autocomplete/default.css,autocomplete/custom.css"
+	/>
+	<link href="https://recursos.clubedomalte.com.br/Handlers/ResourceHandler.ashx?base=c&arquivos=malte_fonts.css" rel="stylesheet"
+	/>
+	<link href="styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="pagina-jogos">
+	<div id="topo" class="header">
+		<div class="center">
+			<div class="logo-cm"></div>
+			<ul>
+				<li><a href="jogos.html">Jogos da Rodada</a></li>
+				<li><a href="ranking.html">Ranking</a></li>
+				<li><a href="regulamento.html">Regras</a></li>
+				<li><a href="voucher.html">Perdi meu Voucher</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="miolo">
+		<div class="center">
+			<h2>Preencha os placares com seu melhor palpite e boa sorte!</h2>
+			<p class="subtitulo">
+				Basta preencher os placares dos jogos com o seu palpite, quanto mais jogos acertar, mais pontos você faz! São vários prêmios a cada rodada e a maior pontuação no final da promoção ganha uma <b>viagem para a República Tcheca para conhecer a fábrica da Czechvar!</b>
+			</p>
+			<h3><span>1&ordf; Rodada</span></h3>
+			<p class="subtitulo caps">
+					Você pode apostar ate 2 horas antes do jogo começar! Não perca tempo e dê o seu melhor palpite!
+			</p>
+			<h4>ESSA RODADA TERMINA EM <b>28-06 13H</b></h4>
+			<form class="envio-palpites">
+				<div class="container-fluid grupo-jogos">
+					<div class="row">
+<div class="col-12 col-sm-6 container-fluid box-jogos">
+	<div class="img-topo">
+		GRUPO A
+	</div>
+	<div class="row linha-jogo" name="jogo_1"><!-- add classe disabled para ficar cinza -->-->
+		<div class="col-12 palpites">
+			<p class="pais esq">Rússia</p>
+			<input class="palpite" name="pais_01">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_02">
+			<p class="pais dir">Arábia Saudita</p>
+		</div>
+		<div class="col-12 data">
+				<p>você tem até <em>14-06 10h</em> para fazer o seu palpite</p>
+			</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_2">
+		<div class="col-12 palpites">
+			<p class="pais esq">Egito</p>
+			<input class="palpite" name="pais_03">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_04">
+			<p class="pais dir">Uruguai</p>
+		</div>
+		<div class="col-12 data">
+				<p>você tem até <em>15-06 7h</em> para fazer o seu palpite</p>
+			</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_17">
+		<div class="col-12 palpites">
+			<p class="pais esq">Russia</p>
+			<input class="palpite" name="pais_01">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_03">
+			<p class="pais dir">Egito</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>19-06 13h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_19">
+		<div class="col-12 palpites">
+			<p class="pais esq">Uruguai</p>
+			<input class="palpite" name="pais_04">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_02">
+			<p class="pais dir">Arábia Saudita</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>20-06 10h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_42">
+		<div class="col-12 palpites">
+			<p class="pais esq">Uruguai</p>
+			<input class="palpite" name="pais_04">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_01">
+			<p class="pais dir">Russia</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>25-06 9h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo last" name="jogo_41">
+		<div class="col-12 palpites">
+			<p class="pais esq">Arábia Saudita</p>
+			<input class="palpite" name="pais_02">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_03">
+			<p class="pais dir">Egito</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>25-06 9h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+</div>
+<div class="col-12 col-sm-6 container-fluid box-jogos">
+	<div class="img-topo">
+		GRUPO B
+	</div>
+	<div class="row linha-jogo" name="jogo_3"><!-- add classe disabled para ficar cinza -->-->
+		<div class="col-12 palpites">
+			<p class="pais esq">Marrocos</p>
+			<input class="palpite" name="pais_07">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_08">
+			<p class="pais dir">Irã</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>15-06 10h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_4">
+		<div class="col-12 palpites">
+			<p class="pais esq">Portugal</p>
+			<input class="palpite" name="pais_05">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_06">
+			<p class="pais dir">Espanha</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>15-06 13h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_18">
+		<div class="col-12 palpites">
+			<p class="pais esq">Portugal</p>
+			<input class="palpite" name="pais_05">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_07">
+			<p class="pais dir">Marrocos</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>20-06 7h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_20">
+		<div class="col-12 palpites">
+			<p class="pais esq">Irã</p>
+			<input class="palpite" name="pais_08">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_06">
+			<p class="pais dir">Espanha</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>20-06 13h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_43">
+		<div class="col-12 palpites">
+			<p class="pais esq">Irã</p>
+			<input class="palpite" name="pais_08">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_05">
+			<p class="pais dir">Portugal</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>25-06 13h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo last" name="jogo_44">
+		<div class="col-12 palpites">
+			<p class="pais esq">Espanha</p>
+			<input class="palpite" name="pais_06">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_07">
+			<p class="pais dir">Marrocos</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>25-06 13h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+</div>
+<div class="col-12 col-sm-6 container-fluid box-jogos">
+	<div class="img-topo">
+		GRUPO C
+	</div>
+	<div class="row linha-jogo" name="jogo_5"><!-- add classe disabled para ficar cinza -->-->
+		<div class="col-12 palpites">
+			<p class="pais esq">França</p>
+			<input class="palpite" name="pais_09">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_10">
+			<p class="pais dir">Austrália</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>16-06 5h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_7">
+		<div class="col-12 palpites">
+			<p class="pais esq">Peru</p>
+			<input class="palpite" name="pais_11">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_12">
+			<p class="pais dir">Dinamarca</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>16-06 11h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_21">
+		<div class="col-12 palpites">
+			<p class="pais esq">Dinamarca</p>
+			<input class="palpite" name="pais_12">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_10">
+			<p class="pais dir">Austrália</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>21-06 8h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_22">
+		<div class="col-12 palpites">
+			<p class="pais esq">França</p>
+			<input class="palpite" name="pais_09">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_11">
+			<p class="pais dir">Peru</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>21-06 12h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_47">
+		<div class="col-12 palpites">
+			<p class="pais esq">Austrália</p>
+			<input class="palpite" name="pais_10">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_11">
+			<p class="pais dir">Peru</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>26-06 9h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo last" name="jogo_48">
+		<div class="col-12 palpites">
+			<p class="pais esq">Dinamarca</p>
+			<input class="palpite" name="pais_12">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_09">
+			<p class="pais dir">França</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>26-06 9h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+</div>
+<div class="col-12 col-sm-6 container-fluid box-jogos">
+	<div class="img-topo">
+		GRUPO D
+	</div>
+	<div class="row linha-jogo" name="jogo_6"><!-- add classe disabled para ficar cinza -->-->
+		<div class="col-12 palpites">
+			<p class="pais esq">Argentina</p>
+			<input class="palpite" name="pais_13">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_14">
+			<p class="pais dir">Islândia</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>16-06 8h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_8">
+		<div class="col-12 palpites">
+			<p class="pais esq">Croácia</p>
+			<input class="palpite" name="pais_15">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_16">
+			<p class="pais dir">Nigéria</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>16-06 14h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_23">
+		<div class="col-12 palpites">
+			<p class="pais esq">Argentina</p>
+			<input class="palpite" name="pais_13">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_15">
+			<p class="pais dir">Croácia</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>21-06 13h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_25">
+		<div class="col-12 palpites">
+			<p class="pais esq">Nigéria</p>
+			<input class="palpite" name="pais_16">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_14">
+			<p class="pais dir">Islândia</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>22-06 10h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_50">
+		<div class="col-12 palpites">
+			<p class="pais esq">Islândia</p>
+			<input class="palpite" name="pais_14">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_15">
+			<p class="pais dir">Croácia</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>26-06 13h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo last" name="jogo_49">
+		<div class="col-12 palpites">
+			<p class="pais esq">Nigéria</p>
+			<input class="palpite" name="pais_16">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_13">
+			<p class="pais dir">Argentina</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>26-06 13h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+</div>
+<div class="col-12 col-sm-6 container-fluid box-jogos">
+	<div class="img-topo">
+		GRUPO E
+	</div>
+	<div class="row linha-jogo" name="jogo_9"><!-- add classe disabled para ficar cinza -->-->
+		<div class="col-12 palpites">
+			<p class="pais esq">Costa Rica</p>
+			<input class="palpite" name="pais_19">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_20">
+			<p class="pais dir">Sérvia</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>17-06 7h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_11">
+		<div class="col-12 palpites">
+			<p class="pais esq">Brasil</p>
+			<input class="palpite" name="pais_17">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_18">
+			<p class="pais dir">Suíça</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>17-06 13h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_24">
+		<div class="col-12 palpites">
+			<p class="pais esq">Brasil</p>
+			<input class="palpite" name="pais_17">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_19">
+			<p class="pais dir">Costa Rica</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>22-06 7h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_26">
+		<div class="col-12 palpites">
+			<p class="pais esq">Sérvia</p>
+			<input class="palpite" name="pais_20">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_18">
+			<p class="pais dir">Suíça</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>22-06 13h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_54">
+		<div class="col-12 palpites">
+			<p class="pais esq">Sérvia</p>
+			<input class="palpite" name="pais_20">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_17">
+			<p class="pais dir">Brasil</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>27-06 13h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo last" name="jogo_53">
+		<div class="col-12 palpites">
+			<p class="pais esq">Suíça</p>
+			<input class="palpite" name="pais_18">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_19">
+			<p class="pais dir">Costa Rica</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>27-06 13h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+</div>
+<div class="col-12 col-sm-6 container-fluid box-jogos">
+	<div class="img-topo">
+		GRUPO F
+	</div>
+	<div class="row linha-jogo" name="jogo_10"><!-- add classe disabled para ficar cinza -->-->
+		<div class="col-12 palpites">
+			<p class="pais esq">Alemanha</p>
+			<input class="palpite" name="pais_21">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_22">
+			<p class="pais dir">México</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>17-06 10h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_12">
+		<div class="col-12 palpites">
+			<p class="pais esq">Suécia</p>
+			<input class="palpite" name="pais_23">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_24">
+			<p class="pais dir">Coréia do Sul</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>18-06 7h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_28">
+		<div class="col-12 palpites">
+			<p class="pais esq">Coréia do Sul</p>
+			<input class="palpite" name="pais_24">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_22">
+			<p class="pais dir">México</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>23-06 10h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_29">
+		<div class="col-12 palpites">
+			<p class="pais esq">Alemanha</p>
+			<input class="palpite" name="pais_21">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_23">
+			<p class="pais dir">Suécia</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>23-06 13h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_52">
+		<div class="col-12 palpites">
+			<p class="pais esq">México</p>
+			<input class="palpite" name="pais_22">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_23">
+			<p class="pais dir">Suécia</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>27-06 9h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo last" name="jogo_51">
+		<div class="col-12 palpites">
+			<p class="pais esq">Coréia do Sul</p>
+			<input class="palpite" name="pais_24">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_21">
+			<p class="pais dir">Alemanha</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>27-06 9h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+</div>
+<div class="col-12 col-sm-6 container-fluid box-jogos">
+	<div class="img-topo">
+		GRUPO G
+	</div>
+	<div class="row linha-jogo" name="jogo_13"><!-- add classe disabled para ficar cinza -->-->
+		<div class="col-12 palpites">
+			<p class="pais esq">Bélgica</p>
+			<input class="palpite" name="pais_25">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_26">
+			<p class="pais dir">Panamá</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>18-06 10h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_14">
+		<div class="col-12 palpites">
+			<p class="pais esq">Tunísia</p>
+			<input class="palpite" name="pais_27">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_28">
+			<p class="pais dir">Inglaterra</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>18-06 13h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_27">
+		<div class="col-12 palpites">
+			<p class="pais esq">Bélgica</p>
+			<input class="palpite" name="pais_25">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_27">
+			<p class="pais dir">Tunísia</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>23-06 7h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_30">
+		<div class="col-12 palpites">
+			<p class="pais esq">Inglaterra</p>
+			<input class="palpite" name="pais_28">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_26">
+			<p class="pais dir">Panamá</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>24-06 7h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_58">
+		<div class="col-12 palpites">
+			<p class="pais esq">Panamá</p>
+			<input class="palpite" name="pais_26">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_27">
+			<p class="pais dir">Tunísia</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>28-06 13h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo last" name="jogo_57">
+		<div class="col-12 palpites">
+			<p class="pais esq">Inglaterra</p>
+			<input class="palpite" name="pais_28">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_25">
+			<p class="pais dir">Bélgica</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>28-06 13h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+</div>
+<div class="col-12 col-sm-6 container-fluid box-jogos">
+	<div class="img-topo">
+		GRUPO H
+	</div>
+	<div class="row linha-jogo" name="jogo_15"><!-- add classe disabled para ficar cinza -->-->
+		<div class="col-12 palpites">
+			<p class="pais esq">Colômbia</p>
+			<input class="palpite" name="pais_31">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_32">
+			<p class="pais dir">Japão</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>19-06 7h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_16">
+		<div class="col-12 palpites">
+			<p class="pais esq">Polônia</p>
+			<input class="palpite" name="pais_29">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_30">
+			<p class="pais dir">Senegal</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>19-06 10h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_31">
+		<div class="col-12 palpites">
+			<p class="pais esq">Japão</p>
+			<input class="palpite" name="pais_32">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_30">
+			<p class="pais dir">Senegal</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>24-06 10h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_32">
+		<div class="col-12 palpites">
+			<p class="pais esq">Polônia</p>
+			<input class="palpite" name="pais_29">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_31">
+			<p class="pais dir">Colômbia</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>24-06 13h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo" name="jogo_55">
+		<div class="col-12 palpites">
+			<p class="pais esq">Senegal</p>
+			<input class="palpite" name="pais_30">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_31">
+			<p class="pais dir">Colômbia</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>28-06 9h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+	<div class="row linha-jogo last" name="jogo_56">
+		<div class="col-12 palpites">
+			<p class="pais esq">Japão</p>
+			<input class="palpite" name="pais_32">
+			<p class="ex">X</p>
+			<input class="palpite" name="pais_29">
+			<p class="pais dir">Polônia</p>
+		</div>
+		<div class="col-12 data">
+			<p>você tem até <em>28-06 9h</em> para fazer o seu palpite</p>
+		</div>
+	</div>
+</div>
+			</div>
+
+					<p class="botao-palpites">
+						<button class="btn btn-lg btn-primary" type="submit">Finalizar palpite</button>
+					</p>
+			</form>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+			<div class="footerLinks">
+				<div id="jsFloatButton" style="display: block;">
+					<a href="#topo" class="voltarTopo"></a>
+				</div>
+
+				<div class="center">
+
+					<div class="footerColuna1">
+						<ul class="ajudaeSuporte">
+							<li class="title small columnHeader">
+								Ajuda e Suporte
+							</li>
+							<li>
+								<a href="https://www.clubedomalte.com.br/atendimento" target="_blank" title="Central de Atendimento">Central de Atendimento</a>
+							</li>
+							<li>
+								<a href="https://www.clubedomalte.com.br/perguntas-frequentes" target="_blank" title="Dúvidas Frequentes">Dúvidas Frequentes</a>
+							</li>
+							<li>
+								<a href="https://www.clubedomalte.com.br/ajuda/troca" target="_blank" title="Trocas e Devoluções">Trocas e Devoluções</a>
+							</li>
+							<li>
+								<a href="https://www.clubedomalte.com.br/ajuda/formaspagamento" target="_blank" title="Formas de Pagamento">Formas de Pagamento</a>
+							</li>
+							<li>
+								<a href="https://www.clubedomalte.com.br/ajuda/entrega" target="_blank" title="Entrega">Entrega</a>
+							</li>
+							<li>
+								<a href="https://www.clubedomalte.com.br/ajuda/comocomprar" target="_blank" title="Como Comprar">Como Comprar</a>
+							</li>
+							<li>
+								<a href="https://www.clubedomalte.com.br/ajuda/comprasegura" target="_blank" title="Compra Segura">Compra Segura</a>
+							</li>
+							<li>
+								<a href="https://www.clubedomalte.com.br/ajuda/politicaprivacidade" target="_blank" title="Política de Privacidade">Política de Privacidade</a>
+							</li>
+							<li>
+								<a href="https://www.clubedomalte.com.br/politica-de-frete" target="_blank" title="Política de Frete">Política de Frete</a>
+							</li>
+							<li>
+								<a href="http://www.procon.pr.gov.br/" target="_blank" title="Procon/PR" target="_blank">Procon/PR</a>
+							</li>
+							<li>
+								<a href="https://www.clubedomalte.com.br/imprensa" target="_blank" title="Área de Imprensa">Área de Imprensa</a>
+							</li>
+						</ul>
+					</div>
+
+					<div class="footerColuna2">
+						<div class="menuSobre">
+							<ul>
+								<li class="title small columnHeader">
+									Sobre Nós
+								</li>
+								<li>
+									<a href="https://www.clubedomalte.com.br/manifesto" target="_blank" title="Manifesto | Quem Somos">Manifesto | Quem Somos</a>
+								</li>
+								<li>
+									<a href="https://www.clubedomalte.com.br/beer-pack" target="_blank" title="Beer Pack">Beer Pack</a>
+								</li>
+								<li>
+									<a href="http://blog.clubedomalte.com.br" target="_blank" title="Blog">Blog</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="footerAtendimento">
+							<ul>
+								<li class="title small columnHeader">
+									Atendimento
+								</li>
+								<li>
+									<a href="mailto:faleconosco@clubedomalte.com.br" title="Fale Conosco">faleconosco@clubedomalte.com.br</a>
+								</li>
+								<li>
+									41 3029-0077
+									<small>de segunda a sexta das 9h às 18h</small>
+								</li>
+							</ul>
+						</div>
+
+						<div class="footerColuna2">
+							<ul>
+								<li class="title small columnHeader">
+									Compra Segura
+								</li>
+							</ul>
+
+							<div class="footerSelos">
+								<ul>
+									<li>
+										<a id="seloEbit" href="http://www.ebit.com.br/clube-do-malte/selo" target="_blank" onclick="redir(this.href);" title="Avaliado pelos consumidores"
+										 oncontextmenu="alert(&quot;Cópia proibida ! A certificação e-bit é de uso exclusivo de lojas conveniadas à e-bit.&quot;);return false;"
+										 value="1" style="display: block; overflow: hidden; position: relative;">
+											<img src="https://newimgebit-a.akamaihd.net/ebitBR/selo/img_44941.png" style="border: 0px;">
+											<script src="//validator.ebit.com.br?storeId=44941&amp;typeTag=selo&amp;urlOrigin=https%3A%2F%2Fwww.clubedomalte.com.br%2F&amp;ebid=1526927651924|"
+											 async="true"></script>
+										</a>
+										<script type="text/javascript" id="getSelo" src="https://imgs.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?44941"></script>
+									</li>
+									<li>
+										<img alt="Wildcard SSL Certificates" border="0" id="ss_img" src="https://seal.alphassl.com/SiteSeal/images/alpha-ssl-logo.gif"
+										 title="SSL Certificate">
+									</li>
+									<li>
+										<a href="https://www.lojaconfiavel.com/clubedomalte" class="ts-footerstamp" data-lcname="clubedomalte" target="_blank">
+											<img src="https://service.yourviews.com.br/Image/1cf7eaef-56a1-452d-8a84-fb0fed43d552/Footer.jpg" title="Loja Confiável"
+											 alt="Loja Confiável" style="width: 88px; height: 91px;"> </a>
+									</li>
+								</ul>
+							</div>
+
+							<div class="footerGarantia">
+								<ul>
+									<li>
+										<i aria-hidden="true" class="fa fa-check">&nbsp;</i> Site seguro com criptografia (SSL).
+									</li>
+									<li>
+										<i aria-hidden="true" class="fa fa-check">&nbsp;</i> Blindado contra roubo e clonagem do cartão.
+									</li>
+									<li>
+										<i aria-hidden="true" class="fa fa-check">&nbsp;</i> Troca garantida em caso de extravio.
+									</li>
+									<li>
+										<i aria-hidden="true" class="fa fa-check">&nbsp;</i> Mais de 2.000 avaliações de nossos clientes.
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="footerPagamento">
+						<ul>
+							<li class="title small columnHeader">
+								Pagamento
+							</li>
+							<li>
+								<img alt="Mastercard" src="https://recursos.clubedomalte.com.br/i/SVG-formasPagamento/master-cor.svg">
+							</li>
+							<li>
+								<img alt="Visa" src="https://recursos.clubedomalte.com.br/i/SVG-formasPagamento/visa-cor.svg">
+							</li>
+							<li>
+								<img alt="Boleto" src="https://recursos.clubedomalte.com.br/i/SVG-formasPagamento/boleto.svg">
+							</li>
+							<li>
+								<img alt="American Express" src="https://recursos.clubedomalte.com.br/i/SVG-formasPagamento/american-cor.svg">
+							</li>
+							<li>
+								<img alt="Elo" src="https://recursos.clubedomalte.com.br/i/SVG-formasPagamento/elo-cor.svg">
+							</li>
+							<li>
+								<img alt="Diners Club International" src="https://recursos.clubedomalte.com.br/i/SVG-formasPagamento/diners-cor.svg">
+							</li>
+							<li>
+								<img alt="FastCash" src="https://recursos.clubedomalte.com.br/i/SVG-formasPagamento/fastcash-cor.svg">
+							</li>
+						</ul>
+					</div>
+
+					<div class="footerSociaisEndeavor">
+						<div class="redesSociais">
+							<ul>
+								<li class="title small columnHeader">
+									Conecte-se Conosco
+								</li>
+								<li>
+									<a href="https://www.facebook.com/clubedomalteonline" target="_blank" title="Facebook">
+										<i aria-hidden="true" class="fa fa-facebook">&nbsp;</i>
+									</a>
+								</li>
+								<li>
+									<a href="https://twitter.com/clubedomalte" target="_blank" title="Twitter">
+										<i aria-hidden="true" class="fa fa-twitter">&nbsp;</i>
+									</a>
+								</li>
+								<li>
+									<a href="https://instagram.com/clubedomalte" target="_blank" title="Instagram">
+										<i aria-hidden="true" class="fa fa-instagram">&nbsp;</i>
+									</a>
+								</li>
+								<li>
+									<a href="https://www.youtube.com/channel/UC8Du4NYOV2WtxI8b-iIfvhg" target="_blank" title="Youtube">
+										<i aria-hidden="true" class="fa fa-youtube">&nbsp;</i>
+									</a>
+								</li>
+								<li>
+									<a href="http://blog.clubedomalte.com.br" target="_blank" title="Blog">
+										<img alt="Blog" src="https://recursos.clubedomalte.com.br/i/blogger-icon.svg">
+									</a>
+								</li>
+								<li>
+									<a href="/atendimento" title="Fale Conosco">
+										<i aria-hidden="true" class="fa fa-envelope-o">&nbsp;</i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="footerEndeavor">
+							<img alt="Uma empresa selecionada no Endeavor Promessas" src="https://recursos.clubedomalte.com.br/MediaCenter/footerendeavor2.png">
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="copyright">
+				<address class="fbits-dadosEmpresa">
+					<span class="razaoSocial" data-nome="Razão Social">Clube do Malte Comércio Eletrônico Ltda.</span>
+					<span class="cnpj" data-nome="CNPJ">CNPJ: 11.605.819/0001-07</span>
+					<span class="InscricaoEstadual" data-nome="Inscrição Estadual">IE: 90574686-34</span>
+					<br>
+					<span class="endereco" data-nome="Endereço">Rua Francisco Leal, 244, Bloco 3</span>
+					<span class="bairro" data-nome="Bairro">Bacacheri</span>
+					<span class="cidade" data-nome="Cidade">Curitiba</span>
+					<span class="estado" data-nome="Estado">-PR</span>
+					<span class="cep" data-nome="CEP">CEP 82.520-650</span>
+				</address>
+
+				<div class="center">
+					<div class="centerContent">
+						© Todos os direitos reservados. Eventuais promoções, descontos e prazos de pagamento expostos aqui são válidos apenas para
+						compras via internet. As fotos, textos e layout aqui veiculados são de propriedade da Loja. É proibida a utilização
+						total ou parcial sem nossa autorização.
+					</div>
+				</div>
+			</div>
+		</div>
+</body>
+
+</html>
